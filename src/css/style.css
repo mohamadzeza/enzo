@@ -1,0 +1,77 @@
+:root{
+    --bg:#0A0A0B;
+    --white:#fff;
+    --blak:#3D3D3D;
+    --red:#DC0112;
+    --blue:#5090DB;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    max-width: 380px;
+    margin: 0 auto;
+}
+body{
+    background-color:var(--bg);
+}
+nav{
+    display: flex;
+}
+.ul-nav{
+    background-color: var(--bg);
+}
+#button-nav{
+    background-color:var(--white);
+}
+.navbar-brand{
+    width: 80px;
+}
+.master{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    align-items: center;
+}
+span{
+    color: var(--red);
+}
+p{
+    color: var(--white);
+    text-align: center;
+}.icon-1,.icon-2{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.icon-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon-1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon-about img{
+    width: 80px;
+}
+.left{
+    margin-left: 20px;
+}
