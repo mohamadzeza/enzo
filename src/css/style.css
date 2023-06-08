@@ -17,9 +17,7 @@ main{
 body{
     background-color:var(--bg);
 }
-nav{
-    display: flex;
-}
+/* navbar style */
 .ul-nav{
     background-color: var(--bg);
 }
@@ -29,6 +27,34 @@ nav{
 .navbar-brand{
     width: 80px;
 }
+#ul-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-call{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn-red{
+    width: 159px;
+    height: 58px;
+    border-radius: 18px;
+    color: var(--white);
+    background-color: transparent;
+    border:1px solid var(--red);
+    transition: all 1s;
+}
+.btn-red:hover{
+    background: var(--red);
+}
+
+/* end */
+/* mster */
 .master{
     margin-top: 50px;
     display: flex;
@@ -45,7 +71,7 @@ p{
     text-align: center;
 }.icon-1,.icon-2{
     display: flex;
-    width: 80%;
+    width: 90%;
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
@@ -73,5 +99,83 @@ p{
     width: 80px;
 }
 .left{
-    margin-left: 20px;
+    margin-left: -20px;
+}
+/* end */
+
+/* itmes */
+.btn-red2{
+    width: 250px;
+    height: 58px;
+    border-radius: 18px;
+    color: var(--white);
+    background-color: transparent;
+    border:1px solid var(--red);
+    transition: all 1s;
+}
+.btn-red2:hover{
+    background: var(--red);
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid var(--white);
+    border-radius:40px ;
+    margin-top: 100px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item-text-if-button{
+    margin-bottom: 80px;
+}
+h1,h2,h3,h4,h5{
+    color: var(--white);
+    margin-top: 40px;
+}
+.text-did{
+    margin-top: 50px;
+}
+.img-did img{
+    width: 380px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+.logo div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+/* end */
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.ul-footer li{
+    color: var(--white);
+    margin-top: 10px;
+}
+.ul-footer{
+    list-style: none;
+}
+h6{
+    color: gray;
+}
+.img-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
