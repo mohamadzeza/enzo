@@ -179,3 +179,154 @@ h6{
     justify-content: center;
     align-items: center;
 }
+#nav2{
+    display: none;
+}
+.icon-about-2{
+    display: none;
+}
+h2,h4,h6{
+    text-align: center;
+}
+.btn-call2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.img-2{
+    display: none;
+}
+.logo-2{
+    display: none;
+}
+@media only screen and (min-width:900px) {
+    main{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    #nav1{
+        display: none;
+    }
+    #nav2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #nav2 li a{
+        color: var(--white);
+        margin-left: 50px;
+    }
+    #it-3,#it-2,#it-1{
+        position: relative;
+        transition: all 1s;
+    }
+    #it-3:hover:before{
+        content: "";
+        position: absolute;
+        border: 0.1px solid var(--red);
+        display: flex;
+        flex-direction: row;
+        width: 40px;
+        bottom: 0;
+        left: 50px;
+    }
+    #it-2:hover:before{
+        content: "";
+        position: absolute;
+        border: 0.1px solid var(--red);
+        display: flex;
+        flex-direction: row;
+        width: 40px;
+        bottom: 0;
+        left: 70px;
+    }
+    #it-1:hover:before{
+        content: "";
+        position: absolute;
+        border: 0.1px solid var(--red);
+        display: flex;
+        flex-direction: row;
+        width: 40px;
+        bottom: 0;
+        left: 70px;
+    }
+    #nav2 ul{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 100%;
+    }
+    .btn-call{
+        margin-top: 10px;
+    }
+    .icon-about{
+        display: none;
+    }
+    .icon-about-2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 200px;
+        
+    }
+    .master .img img{
+        width: 500px;
+    }
+    .items{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .item{
+        width: 40%;
+    }
+    .btn-call2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .img-2{
+        display: flex;
+    }
+    .img-1{
+        display: none;
+    }
+    .did-my{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .logo{
+        display: none;
+    }
+    .logo-2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .national{
+        margin-top: -140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
